@@ -1,0 +1,59 @@
+#####DOCKER IMAGES#####
+# Docker Registry - https://hub.docker.com/_/registry
+docker pull registry
+
+
+#####DATABASE IMAGES#####
+# Oracle 12C - https://hub.docker.com/u/akbaraziz/content/sub-1cbe0e60-89c4-4e2e-be67-a6c335b84e8a
+docker pull store/oracle/database-enterprise:12.2.0.1
+
+# MySQL Server Enterprise Edition - https://hub.docker.com/u/akbaraziz/content/sub-ec53e8bd-b791-43b3-ad0e-b1cc316a8750
+docker pull store/oracle/mysql-enterprise-server:5.7
+
+# PostGres - https://hub.docker.com/_/postgres
+docker pull postgres
+
+
+#####OS IMAGES#####
+# CentOS - https://hub.docker.com/_/centos
+docker pull centos:centos7.8.2003
+docker pull centos:centos8.1.1911
+
+# Ubuntu -  https://hub.docker.com/_/ubuntu?tab=tags
+docker pull ubuntu
+docker pull ubuntu:18.04
+docker pull ubuntu:19.10
+docker pull ubuntu:20.04
+
+# Windows - https://hub.docker.com/_/microsoft-windows
+docker pull mcr.microsoft.com/windows:1909-amd64
+
+
+#####WEB SERVER IMAGES#####
+# NGINX - https://hub.docker.com/_/nginx?tab=tags
+docker pull nginx:latest
+
+# Windows IIS - https://hub.docker.com/_/microsoft-windows-servercore-iis
+docker pull mcr.microsoft.com/windows/servercore/iis
+
+# HAProxy - https://hub.docker.com/_/haproxy
+docker pull haproxy
+
+
+#####DEV APP IMAGES#####
+# Tomcat - https://hub.docker.com/_/tomcat
+docker pull tomcat
+
+# Splunk - https://hub.docker.com/u/akbaraziz/content/sub-174c6477-480c-4103-ba79-4e9b1a58614b
+docker pull store/splunk/splunk:7.3.0
+
+# Jenkins - https://hub.docker.com/_/jenkins
+docker pull jenkins
+
+# Python - https://hub.docker.com/_/python
+docker pull python
+
+
+#####KUBERNETES IMAGES#####
+# Kubernetes Dashboard - https://hub.docker.com/r/kubernetesui/dashboard
+docker pull kubernetesui/dashboard
